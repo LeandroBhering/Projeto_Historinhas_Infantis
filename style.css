@@ -7,10 +7,11 @@
 }
 
 .banner {
-    background-image: url(/Imagens/fundo_banner.png);
+   /* background-image: url(/Imagens/fundo_banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: rgb(139, 77, 6);
     height: 300px;
     font-size: 1.5em;
     padding: 20px;
@@ -29,23 +30,51 @@
 
 .menu {
     display: flex;
+   
     justify-content: space-between;
-    background-color: #FEEAAD;
-    padding: 10px;
+    background-color: #926e02;
+
 }
 
+.containerPesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisar{
+    background-color: ;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 0 10px;
+
+}
+
+.botao{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
 
 
 .links {
     display: flex;
+    margin-right: 15px;
+    flex-wrap: wrap;
+    
 }
 
 .links a {
-    margin: 0 10px;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
     font: normal 1em 'Fredoka One', cursive;
     color: black;
+    border-radius: 5px;
+    text-align: center;
+    width: 90px;
 }
 
 .links a:hover {
