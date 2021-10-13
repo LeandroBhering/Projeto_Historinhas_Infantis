@@ -129,13 +129,11 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    
+
 }
 .capas {
-    width: 350px;
-    padding: 10px;
+    margin: 10px; 
 }
 .capas p {
     width: 230px;
