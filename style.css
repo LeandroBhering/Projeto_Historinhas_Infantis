@@ -133,7 +133,14 @@ body {
 
 }
 .capas {
-    margin: 10px; 
+    margin: 10px;
+}
+.capas a {
+    text-decoration: none;
+    color: #000;
+}
+.capas a:hover {
+    
 }
 .capas p {
     width: 230px;
