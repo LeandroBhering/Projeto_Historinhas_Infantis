@@ -139,14 +139,25 @@ body {
     text-decoration: none;
     color: #000;
 }
-.capas a:hover {
-    
+.capas:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.750);
 }
 .capas p {
     width: 230px;
     margin: auto;
     text-align: center;
 }
+/* ~~~~~~~~~~~~~~~~ // ~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~ Historinhas Pages ~~~~~~~~ */
+.historia p {
+    max-width: 800px;
+    margin: 10px;
+    font: bold 1.8em var(--fontSatisfy);
+}
+
+
+
 /* ~~~~~~~~~~~~~~~~ // ~~~~~~~~~~~~~~~~ */
 
 /* ~~~~~~~~~~ Footer - Rodapé ~~~~~~~~~ */
