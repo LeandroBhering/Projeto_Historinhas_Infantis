@@ -137,6 +137,11 @@ body {
     width: 350px;
     padding: 10px;
 }
+.capas p {
+    width: 230px;
+    margin: auto;
+    text-align: center;
+}
 /* ~~~~~~~~~~~~~~~~ // ~~~~~~~~~~~~~~~~ */
 
 /* ~~~~~~~~~~ Footer - Rodapé ~~~~~~~~~ */
