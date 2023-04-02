@@ -173,7 +173,10 @@ body {
     margin-top: 175px;
 }
 
-
+#cartao p {
+    text-align: left;
+    margin: 10px;
+}
 
 
 /* ~~~~~~~~~~~~~~~~ // ~~~~~~~~~~~~~~~~ */
