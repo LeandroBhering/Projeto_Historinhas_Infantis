@@ -165,7 +165,13 @@ body {
 
 /* ~~~~~~~~~~ Principal - Contato ~~~~~~~~~ */
 
-
+#cartao {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 175px;
+}
 
 
 
